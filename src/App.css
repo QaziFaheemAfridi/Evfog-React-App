@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+
+.switch input[type=checkbox] + .cr {
+  position: relative;
+  display: inline-block;
+  transition: 0.4s ease;
+  height: 20px;
+  width: 35px;
+  border: 1px solid #e9eaec;
+  border-radius: 60px;
+  cursor: pointer;
+  z-index: 0;
+  top: 12px;
+}
+.m-r-10 {
+  margin-right: 10px;
+}
+.d-inline {
+  display: inline !important;
+}
+.dropzone.dz-clickable {
+  cursor: pointer;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.dropzone.dz-clickable .dz-message, .dropzone.dz-clickable .dz-message * {
+  cursor: pointer;
+}
+
+.dropzone .dz-message {
+  text-align: center;
+  margin: 2em 0;
+}
+
+button, input, optgroup, select, textarea {
+  margin: 3px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
